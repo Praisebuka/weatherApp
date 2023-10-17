@@ -22,7 +22,8 @@ app.get("/weather", async (req, res) => {
   // Add your logic here to fetch weather data from the API
   const APIUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`;
   let weather;
-  let error = null;
+  let error = null; 
+
   try {
     const response = await axios.get(APIUrl);
     weather = response.data;
@@ -30,8 +31,10 @@ app.get("/weather", async (req, res) => {
     weather = null;
     error = "Error, Please enter a valid location name";
   }
+
   // Render the index template with the weather data and error message
   res.render("index", { weather, error });
+  
 });
 
 // Start the server and listen on port 3000 or the value of the PORT environment variable
