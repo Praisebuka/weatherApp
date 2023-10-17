@@ -13,7 +13,7 @@ So basically, to run this project, you just need to follow the preceeding steps:
 
 🔴 Also install the necessary dependencies that's in the package.json file
 
-🔴 And then start your server with *npm run server*
+🔴 And then start your server with <b> npm run serve</b>
 
 
 
