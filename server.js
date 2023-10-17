@@ -28,7 +28,7 @@ app.get("/weather", async (req, res) => {
     weather = response.data;
   } catch (error) {
     weather = null;
-    error = "Error, Please try again";
+    error = "Error, Please enter a valid location name";
   }
   // Render the index template with the weather data and error message
   res.render("index", { weather, error });
