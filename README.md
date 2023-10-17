@@ -1,6 +1,6 @@
 # Weather App with NodeJS🚀
 
-Welcome to my weather application, where you get to see the weather updates of various places around the world.
+Welcome to my weather application, where you get to see the weather updates of various places around the world with accurate details and much more.
 
 # Run the Projects
 
@@ -12,6 +12,8 @@ So basically, to run this project, you just need to follow the preceeding steps:
 🔴 Run your npm install
 
 🔴 Also install the necessary dependencies that's in the package.json file
+
+🔴 And then start your server with *npm run server*
 
 
 
