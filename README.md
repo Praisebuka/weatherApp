@@ -22,5 +22,4 @@ So basically, to run this project, you just need to follow the preceeding steps:
 [Twitter](https://twitter.com/PraiseEbuka1) or visit my Github profile for more details. 
 
 Thanks
-
 Best Regards.
