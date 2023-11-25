@@ -19,4 +19,7 @@ So basically, to run this project, you just need to follow the preceeding steps:
 
 # For questions or contributions
 [Reach out to me on Linkedin](https://www.linkedin.com/in/praisebuka) or
-[Twitter](https://twitter.com/PraiseEbuka1) or visit my Github profile for more details. Thanks
+[Twitter](https://twitter.com/PraiseEbuka1) or visit my Github profile for more details. 
+
+Thanks
+Best Regards.
