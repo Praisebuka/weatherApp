@@ -27,6 +27,8 @@ app.get("/weather", async (req, res) => {
   try {
     const response = await axios.get(APIUrl);
     weather = response.data;
+
+    console.log(response);
   } catch (error) {
     weather = null;
     error = "Error, Please enter a valid location name";
@@ -34,7 +36,7 @@ app.get("/weather", async (req, res) => {
 
   // Render the index template with the weather data and error message
   res.render("index", { weather, error });
-  
+
 });
 
 // Start the server and listen on port 3000 or the value of the PORT environment variable
