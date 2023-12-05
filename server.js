@@ -28,7 +28,7 @@ app.get("/weather", async (req, res) => {
     const response = await axios.get(APIUrl);
     weather = response.data;
 
-    console.log(response);
+    // console.log(response);
   } catch (error) {
     weather = null;
     error = "Error, Please enter a valid location name";
