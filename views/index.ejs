@@ -13,9 +13,9 @@
       <h1>Weather App using NodeJS</h1>
 
         <form action="/weather" method="get">
-          <input type="text" name="city" placeholder="Enter your city's name" />
-          <button type="submit">Get Weather</button> 
-        </form>
+          <input type="text" name="city" placeholder="Enter your city's name" required />
+          <button type="submit">Get Predictions</button> 
+        </form> 
 
       ` <% if (error) { %>
       <p class="error"><%= error %></p>
@@ -35,6 +35,10 @@
           <%=weather.name%>, <%=weather.sys.country%>
         </p>
       </div>
+      <% } else { %>
+        <div> 
+          <p>Sorry please check your internet and try again</p>
+        </div>
       <% } %>
     </div>
 
