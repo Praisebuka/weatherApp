@@ -47,3 +47,19 @@ app.listen(port, () => {
 
 
 
+
+
+<div>
+      <div className='d-none d-lg-block'>
+        <div className="row section-b-space m-2"> 
+                <a href="/dashboard/products" className="col-md-8"> 
+                    <img className="mx-auto col-12" height={'auto'} src={"/images/banner-img.jpg"}/>
+                </a>
+
+                <a href="/docs/sales" className="col-md-4"> 
+                    <img className="mx-auto col-10" height={'auto'} src={"/images/banner-img2.png"}/>
+                </a>
+            </div>
+
+      </div>
+    </div>
