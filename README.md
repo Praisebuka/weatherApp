@@ -5,7 +5,7 @@ Welcome to my weather application, where you get to see the weather updates of v
 # Run the Projects
 
 
-So basically, to run this project, you just need to follow the preceeding steps:
+So basically, to run this project, you just need to follow the preceeding steps:  
 
 🔴 Clone this repo
 
