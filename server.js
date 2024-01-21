@@ -11,7 +11,7 @@ app.use(express.static("public"));
 // Render the index template with default values for weather and error
 app.get("/", (req, res) => {
   res.render("index", { weather: null, error: null });
-});
+}); 
 
 // Handle the /weather route
 app.get("/weather", async (req, res) => {
