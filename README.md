@@ -5,7 +5,7 @@ Welcome to my weather application, where you get to see the weather updates of v
 # Run the Projects
 
 
-So basically, to run this project, you just need to follow the preceeding steps:
+So basically, to run this project, you just need to follow the preceeding steps:  
 
 🔴 Clone this repo
 
@@ -17,8 +17,9 @@ So basically, to run this project, you just need to follow the preceeding steps:
 
 
 
-# For questions or contributions
+# For questions or contributions 
 [Reach out to me on Linkedin](https://www.linkedin.com/in/praisebuka) or
 [Twitter](https://twitter.com/PraiseEbuka1) or visit my Github profile for more details. 
 
-Thanks, Best Regards.
+Thanks, Best Regards. 
+
