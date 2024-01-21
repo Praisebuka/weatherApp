@@ -5,7 +5,7 @@ const app = express();
 // Set the view engine to EJS  
 app.set("view engine", "ejs");
  
-// Serve the public folder as static files
+// Serve the public folder as static files 
 app.use(express.static("public"));
 
 // Render the index template with default values for weather and error
