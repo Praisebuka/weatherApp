@@ -2,7 +2,7 @@ const express = require("express");
 const axios = require("axios");
 const app = express();
 
-// Set the view engine to EJS
+// Set the view engine to EJS  
 app.set("view engine", "ejs");
 
 // Serve the public folder as static files
